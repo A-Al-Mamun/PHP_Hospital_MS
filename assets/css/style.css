@@ -24,12 +24,11 @@ header{
     max-width: 1160px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 10% auto 300px;
+    grid-template-columns: 10% auto 20%;
     grid-gap: 10px
 }
 
 .header-logo{
-    border: 1px solid #000;
     display: flex;
     align-items: center;
 }
@@ -47,17 +46,21 @@ header{
 .header-nav{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
-    border: 1px solid #000;
+    grid-gap: 30px;
 }
 .nav-item{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s;
+}
+.nav-item:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
 }
 .nav-item span{
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .nav-item i{
     padding-top: 25px;
@@ -68,13 +71,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #000;
 }
 .header-buttons a{
     display: inline-block;
     text-decoration: none;
     color: #000;
     font-weight: 400!important;
+    font-size: 0.8rem;
     transition: 0.4s;
 }
 .header-buttons a:hover{
@@ -85,3 +88,15 @@ header{
 }
 .header-buttons a i{}
 .header-search{}
+
+
+
+/* 0 Footer Section */
+footer{
+    background: #012d61;
+    padding: 30px 0;
+}
+.footer-container{
+    max-width: 1160px;
+    margin: 0 auto;
+}

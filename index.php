@@ -22,5 +22,8 @@
     <!-- Header Section link -->
     <?php require_once "./components/header.php" ?>
     <h1>Main Page</h1>
+
+    <!-- Footer Section link -->
+    <?php require_once "./components/footer.php" ?>
 </body>
 </html>
