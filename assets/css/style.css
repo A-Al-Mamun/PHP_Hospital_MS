@@ -1,0 +1,87 @@
+
+/*************************
+CSS Contant List
+01 Default Style
+02 Header Section
+*************************/
+
+/* 01 Default Section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 02 Header Section */
+header{
+    background: #ffffff;
+    padding: 20px 0;
+}
+.header-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 10% auto 300px;
+    grid-gap: 10px
+}
+
+.header-logo{
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+.header-logo a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(194, 16, 188);
+    font-weight: 800;
+    font-size: 30px;
+}
+.header-logo a span{
+    color: #000;
+}
+
+.header-nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    border: 1px solid #000;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item span{
+    font-weight: 200;
+    font-size: 1rem;
+}
+.nav-item i{
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.header-buttons a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400!important;
+    transition: 0.4s;
+}
+.header-buttons a:hover{
+    text-decoration: underline;
+}
+.log:hover{
+    text-decoration: none!important;
+}
+.header-buttons a i{}
+.header-search{}
