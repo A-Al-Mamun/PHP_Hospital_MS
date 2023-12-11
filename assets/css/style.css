@@ -96,7 +96,83 @@ footer{
     background: #012d61;
     padding: 30px 0;
 }
-.footer-container{
+.footer-container1{
     max-width: 1160px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    color: #ffffff;
+    font-size: 0.8rem;
 }
+.footer-btns{}
+.btns-item{
+    border: 1px solid #ffffff44;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.4s;
+}
+.btns-item:hover{
+    border: 1px solid #ffffff;
+}
+.btns-item i{
+    flex: 0 0 10%;
+}
+.btns-item span{
+    flex: 0 0 90%;
+}
+.btns-item{}
+.footer-btns a{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-professions{}
+.footer-professions a{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+.footer-research{}
+.footer-research a{ 
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-container2{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.container2-item{}
+.container2-item h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.container2-item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff44;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.container2-item a:hover{
+    border: 1px solid #ffffff;
+}
+.container2-item a i{}
+
+
