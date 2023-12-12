@@ -70,13 +70,27 @@
     <div class="footer-container2">
         <div class="container2-item">
             <h2>Follow me Hospital</h2>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
         </div>
         <div class="container2-item">
             <h2>Get the me Hospital App</h2>
         </div>
+    </div>
+    <div class="footer-container3">
+        <a href="#">Tern & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Notice of Privacy Practices</a>
+        <a href="#">Notice of Nondiscrimination</a>
+        <a href="#">Accessibility Statement</a>
+        <a href="#">Advertising & Sponsordhip Policy</a>
+        <a href="#">Site Map</a>
+    </div>
+    <div class="footer-container4">
+        <p>© 1998-2023 Me Foundation for Medical Education and Research (MFMER). All rights reserved.</p>
     </div>
 </footer>

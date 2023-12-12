@@ -94,11 +94,12 @@ header{
 /* 0 Footer Section */
 footer{
     background: #012d61;
-    padding: 30px 0;
+    padding-top: 30px;
 }
 .footer-container1{
     max-width: 1160px;
     margin: 0 auto;
+    padding: 30px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
@@ -158,11 +159,16 @@ footer{
     color: #fff;
     margin-bottom: 30px;
 }
-.container2-item a{
+.social-icon{
+    display: flex;
+    flex-direction: row;
+}
+.social-icon a{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    margin-right: 10px;
     width: 40px;
     height: 40px;
     border: 1px solid #ffffff44;
@@ -170,9 +176,28 @@ footer{
     border-radius: 50%;
     transition: 0.4s;
 }
-.container2-item a:hover{
+.social-icon a:hover{
     border: 1px solid #ffffff;
 }
-.container2-item a i{}
+.social-icon a i{}
+
+
+.footer-container3,
+.footer-container4{
+    padding: 30px 0;
+    background: #e1f0ff;
+    display: flex;
+    justify-content: center;
+}
+.footer-container3 a{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.footer-container3 a:hover{
+    text-decoration: underline;
+}
 
 
