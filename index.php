@@ -21,7 +21,10 @@
 <body>
     <!-- Header Section link -->
     <?php require_once "./components/header.php" ?>
-    <h1>Main Page</h1>
+    
+    <!-- Main Section Start -->
+    <?php require_once "./components/main.php" ?>
+    <!-- Main Section End -->
 
     <!-- Footer Section link -->
     <?php require_once "./components/footer.php" ?>

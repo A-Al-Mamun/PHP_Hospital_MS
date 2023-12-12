@@ -201,3 +201,31 @@ footer{
 }
 
 
+/* Main Section */
+
+main{}
+.hero-section{
+    position: relative;
+    width: 100%;
+}
+.hero-section video{
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+.video-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.video-content h1{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.video-content a{
+    display: inline-block;
+    max-width: 1160px;
+    margin: 0 auto;
+}
