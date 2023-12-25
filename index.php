@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Abdullah Al Mamun">
     <meta name="description" content="Full Hospital Management System Design here, also CRUD system include.">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital MS | Be safe and try to care yourself...</title>
 
