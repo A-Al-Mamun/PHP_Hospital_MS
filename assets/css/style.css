@@ -303,9 +303,12 @@ main{}
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px solid #000;
+    border: 1px solid #1115e286;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s;
 }
-.search-letter a:hover{}
+.search-letter a:hover{
+    border-color:  #1115e2;
+}
