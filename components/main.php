@@ -58,5 +58,39 @@
     </div>
     <!-- Search Section End -->
 
+    <!-- Blogs Section Start -->
+    <div class="blogs">
+        <div class="blog-item">
+            <div class="blog-content">
+                <h1>Healing starts here</h1>
+                <div class="blog-content-inner">
+                    <h3>The right answers the first time</h3>
+                    <p>Effective treatment depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges.</p>
+                </div>
+                <div class="blog-content-inner">
+                    <h3>Top-ranked in the U.S.</h3>
+                    <p>Mayo Clinic has more No. 1 rankings than any other hospital in the nation according to U.S. News & World Report. <a href="#">Learn more about our top-ranked specialties.</a></p>
+                </div>
+                <a href="#">Why Choose Me Clinic</a>
+            </div>
+            <div class="blog-image">
+                <img src="./assets/images/blog1.avif" alt="">
+            </div>
+        </div>
+        <div class="blog-item">
+            <div class="blog-image">
+                <img src="./assets/images/blog2.avif" alt="">
+            </div>
+            <div class="blog-content">
+                <h1>World-class care for global patients</h1>
+                <div class="blog-content-inner">
+                    <p>We make it easy for patients around the world to get care from Mayo Clinic.</p>
+                </div>
+                <a href="#">Why Choose Me Clinic</a>
+            </div>
+        </div>
+    </div>
+    <!-- Blogs Section End -->
+
 
 </main>
