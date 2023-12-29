@@ -1,3 +1,11 @@
+<div class="footer-top">
+    <div class="foo-top-inner">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <h1>One gift, 3X the impact</h1>
+        <p>Join our Year-End Challenge and triple your gift to help shape the future of healthcare!</p>
+        <a href="#">Give Now</a>
+    </div>
+</div>
 <footer>
     <div class="footer-container1">
         <div class="footer-btns">
