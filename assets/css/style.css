@@ -439,3 +439,42 @@ main{}
     text-decoration: underline;
 }
 .loc-item-content span{}
+
+
+/* Feature Section Start */
+
+.features{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+.feature-col{
+
+}
+
+.feature-col h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.feature-col p{
+    font-size: 1.3rem;
+}
+
+.feature-col-item{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+.feature-col-item a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 0;
+    border-top: 1px solid #000;
+}
+
+.feature-col-item a:last-child{
+    border-bottom: 1px solid #000;
+}

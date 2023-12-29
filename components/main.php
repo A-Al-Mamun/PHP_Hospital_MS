@@ -134,4 +134,32 @@
     <!-- Location Section End -->
 
 
+    <!-- Feature Section Start -->
+    <div class="features">
+        <div class="feature-col">
+            <h1>Featured care areas</h1>
+            <p>We solve the world's most serious and complex medical challenges.</p>
+        </div>
+        <div class="feature-col-item">
+            <a href="#">Bone marrow transplant</a>
+            <a href="#">Brain aneurysm</a>
+            <a href="#">Brain tumor</a>
+            <a href="#">Brain cancer</a>
+            <a href="#">Colon cancer</a>
+            <a href="#">Congenital heart disease</a>
+            <a href="#">Glioma</a>
+        </div>
+        <div class="feature-col-item">
+            <a href="#">Heart arrhythmia</a>
+            <a href="#">Heart valve disease</a>
+            <a href="#">Living-donor transplant</a>
+            <a href="#">Lung transplant</a>
+            <a href="#">Sarcoma</a>
+            <a href="#">Testicular cancer</a>
+        </div>
+
+    </div>
+    <!-- Feature Section End -->
+
+
 </main>
