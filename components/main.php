@@ -93,4 +93,45 @@
     <!-- Blogs Section End -->
 
 
+    <!-- Location Section Start -->
+    <div class="locations">
+        <div class="location-text">
+            <h1>Locations</h1>
+            <p>Learn more about Mayo Clinic locations or choose a specific location.</p>
+            <a href="#">Explore all locations</a>
+        </div>
+        <div class="location-item">
+            <div class="loc-item-content">
+                <a href="#">Me Clinic in Arizona</a>
+                <span>Phoenix & Scottsdale</span>
+            </div>
+        </div>
+        <div class="location-item">
+            <div class="loc-item-content">
+                <a href="#">Me Clinic in Florida</a>
+                <span>Jacksonville</span>
+            </div>
+        </div>
+        <div class="location-item">
+            <div class="loc-item-content">
+                <a href="#">Me Clinic in Florida</a>
+                <span>Jacksonville</span>
+            </div>
+        </div>
+        <div class="location-item">
+            <div class="loc-item-content">
+                <a href="#">Me Clinic in Florida</a>
+                <span>Jacksonville</span>
+            </div>
+        </div>
+        <div class="location-item">
+            <div class="loc-item-content">
+                <a href="#">Me Clinic in Florida</a>
+                <span>Jacksonville5</span>
+            </div>
+        </div>
+    </div>
+    <!-- Location Section End -->
+
+
 </main>
