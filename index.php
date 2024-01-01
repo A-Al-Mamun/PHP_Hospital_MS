@@ -29,5 +29,8 @@
 
     <!-- Footer Section link -->
     <?php require_once "./components/footer.php" ?>
+
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

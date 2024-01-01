@@ -48,6 +48,13 @@ header{
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 30px;
 }
+.header-nav i{
+    display: none;
+}
+.header-hideNav{
+    /* display: none; */
+}
+
 .nav-item{
     display: flex;
     justify-content: center;
@@ -518,4 +525,52 @@ main{}
 
 .feature-col-item a:last-child{
     border-bottom: 1px solid #000;
+}
+
+
+
+
+
+/* Responsive Section */
+
+@media (max-width:950px) {
+    body{
+        position: relative;
+    }
+    .header-container{
+        grid-template-columns: 15% auto 35%;
+    }
+    .header-nav i{
+        display: block;
+        font-size: 2rem;
+        padding: 0px 0 0 40px;
+        cursor: pointer;
+    }
+    .header-hideNav{
+        display: none;
+        flex-direction: column;
+        color: #fff;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 300px;
+        background: #00000095;
+        z-index: 9999;
+    }
+    .header-hideNav .item{
+        color: #fff;
+        display: grid;
+        grid-template-columns: auto 10%;
+        margin: 20px 0;
+        position: relative;
+    }
+    .header-hideNav .item i{
+        position: absolute;
+        top: 0;
+        right: 20px;
+    }
+
+    .nav-item{
+        display: none;
+    }
 }
