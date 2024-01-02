@@ -51,8 +51,9 @@ header{
 .header-nav i{
     display: none;
 }
-.header-hideNav{
-    /* display: none; */
+.header-hideNav,
+.item{
+    display: none!important;
 }
 
 .nav-item{
@@ -547,7 +548,7 @@ main{}
         cursor: pointer;
     }
     .header-hideNav{
-        display: none;
+        display: none!important;
         flex-direction: column;
         color: #fff;
         position: absolute;
